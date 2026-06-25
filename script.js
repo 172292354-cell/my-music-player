@@ -17,6 +17,7 @@ const nextBtn = document.getElementById('nextBtn');
 const playPauseBtn = document.getElementById('playPauseBtn');
 
 const API_BASE = '';
+const IS_STATIC_HOSTING = true;
 
 let songsData = [];
 
@@ -163,6 +164,11 @@ function toggleTheme() {
 }
 
 function toggleMode() {
+    if (IS_STATIC_HOSTING && AppState.currentMode === 'iframe') {
+        showError('当前环境不支持API模式，请使用本地服务器运行');
+        return;
+    }
+    
     showLoading();
     
     setTimeout(() => {
@@ -197,6 +203,16 @@ function toggleMode() {
 }
 
 function updateModeUI() {
+    if (IS_STATIC_HOSTING) {
+        AppState.currentMode = 'iframe';
+        modeToggle.textContent = '外链模式';
+        modeToggle.classList.remove('api-mode');
+        audioPlayer.classList.add('hidden');
+        iframePlayer.classList.remove('hidden');
+        playPauseBtn.classList.add('hidden');
+        return;
+    }
+    
     if (AppState.currentMode === 'api') {
         modeToggle.textContent = 'API模式';
         modeToggle.classList.add('api-mode');

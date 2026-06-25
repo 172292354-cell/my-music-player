@@ -1,0 +1,8 @@
+name = "music-player-api"
+main = "worker/script.js"
+compatibility_date = "2024-01-01"
+
+# 路由配置 - 将 Worker 部署到特定路径
+routes = [
+  { pattern = "api.xmmlzwtk.cc.cd", zone_name = "xmmlzwtk.cc.cd" }
+]

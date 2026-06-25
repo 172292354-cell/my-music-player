@@ -1,0 +1,17 @@
+{
+  "name": "my-music-player",
+  "version": "1.0.0",
+  "description": "一个基于网易云音乐外链播放器的现代化网页音乐播放器，采用纯前端技术栈构建，支持主题切换、歌单管理、响应式设计等功能。",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

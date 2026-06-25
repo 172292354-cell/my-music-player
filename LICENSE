@@ -1,0 +1,159 @@
+GNU General Public License
+Version 3, 29 June 2007
+
+版权所有 (C) 2007 Free Software Foundation, Inc.
+
+【中文译本，仅供参考】
+
+                    GNU 通用公共许可证
+                    第三版，2007年6月29日
+
+    本程序为自由软件；在遵守本许可证条款的前提下，
+    您可以在不受限制的情况下使用、复制、修改和分发本程序。
+
+                    GNU 通用公共许可证
+    版权所有 (C) 2007 Free Software Foundation, Inc.
+    任何人都有权复制和发布本许可证的完整副本，
+    但不允许修改。
+
+                        序言
+
+GNU 通用公共许可证是一个自由软件的-copyleft许可证，
+保证您有权自由运行、学习、分享（复制和分发）和修改本程序。
+
+为了保护您的权利，我们要求禁止其他人限制您行使这些权利。
+因此，如果您对本程序的副本进行修改或分发，我们必须给予您
+一定的方法来确保您能够获得源代码，并且必须向所有接收者
+提供本许可证。
+
+通过以下条款，我们试图严格确保将基于本程序的作品的
+分发必须保持自由的特性。
+
+                        定义
+
+"本程序"指的是任何受本许可证约束的作品。
+"作品的衍生作品"指的是基于本程序的程序或作品，
+即整个或部分内容，以某种方式从本程序复制或衍生出来。
+
+包含本程序或本程序的部分内容的"合理使用"始终受版权法保护，
+不受本许可证限制。
+
+                        源代码
+
+"源代码"指的是程序进行修改时首选的形式。
+"目标代码"指的是已编译的程序的任何非源代码形式。
+
+授予的权限包括：
+1. 复制和分发本程序的源代码
+2. 修改源代码创建衍生作品
+3. 分发修改后的目标代码或源代码
+
+用户必须能够获取修改所需的源代码。
+"获取源代码"指的是通过以下方式之一实现：
+- 提供目标代码并附带完整的机器可读的源代码
+- 提供获取源代码的书面报价，有效期至少3年
+- 与一个以上的供应商配合，免费提供目标代码和源代码
+
+                        衍生作品
+
+您可以分发基于本程序的衍生作品，但必须：
+1. 在每个文件中包含适当的版权声明
+2. 使衍生作品以本许可证进行许可
+3. 向所有接收者提供本许可证
+
+                        限制
+
+本许可证不授予您使用本程序的任何商标或商品名。
+如果您在本程序中声明了免责声明，则此免责声明
+将扩展到本许可证的整个范围。
+
+                        禁止闭源
+
+您不能将本程序（或基于本程序的任何作品）用于
+或传播商业活动，包括：
+- 以目标代码形式在商业产品中发布
+- 以源代码形式在商业产品中发布
+- 修改本程序并以商业方式分发
+
+任何衍生作品或修改版本必须：
+- 保持开源
+- 以 GPL v3 许可证发布
+- 保持所有版权声明完整
+
+                        终止条款
+
+如果您未能遵守本许可证的任何条款，您的权利
+将自动终止。但是，通过以下方式获得本程序副本的
+第三方将继续保留其权利，只要他们完全遵守。
+
+                        无担保
+
+本程序在法律允许的范围内提供，不提供任何明示或暗示的担保。
+
+                        许可协议英文原文
+
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2007 Free Software Foundation, Inc.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+                    GNU GENERAL PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+0. This License applies to any program or other work which contains
+   a notice placed by the copyright holder saying it may be distributed
+   under the terms of this General Public License.
+
+1. You may copy and distribute verbatim copies of the Program's
+   source code as you receive it, in any medium, provided that you
+   conspicuously and appropriately publish on each copy an appropriate
+   copyright notice and disclaimer of warranty.
+
+2. You must cause any files that you modify to carry prominent notices
+   stating that you changed the files and the date of any change.
+
+3. You may copy and distribute the Program (or a work based on it,
+   under Section 2) in object code or executable form under the terms
+   of Sections 1 and 2 above provided that you also do one of these things:
+   a) Accompany it with the complete corresponding machine-readable
+      source code, which must be distributed under the terms of Sections
+      1 and 2 above on a medium customarily used for software interchange.
+   b) Accompany it with a written offer, valid for at least three years,
+      to give any third party, a complete machine-readable copy of the
+      corresponding source code.
+   c) Accompany it with the information you received as to the offer
+      to distribute corresponding source code.
+
+4. You may not copy, sublicense, distribute or modify the Program
+   except as expressly provided under this License.
+
+5. If you develop and distribute a modified version of the Program,
+   the modified version must be published under this License.
+
+6. If you use this Program to create a product that is distributed
+   commercially, the entire source code of your product must be made
+   available under this License.
+
+                    NO WARRANTY
+
+11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
+FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN
+OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
+PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
+OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+                    END OF TERMS AND CONDITIONS

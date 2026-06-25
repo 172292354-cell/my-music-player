@@ -23,7 +23,7 @@ let songsData = [];
 
 const AppState = {
     currentTheme: localStorage.getItem('musicPlayerTheme') || 'light',
-    currentMode: localStorage.getItem('musicPlayerMode') || 'iframe',
+    currentMode: IS_STATIC_HOSTING ? 'iframe' : (localStorage.getItem('musicPlayerMode') || 'iframe'),
     currentPlaylist: null,
     currentSong: null,
     isLoading: false,
